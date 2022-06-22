@@ -81,3 +81,11 @@ button {
     width: 300px;
     height: 300px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    text-align: center;
+    font-style: italic;
+    font-size: 36px;
+    padding: 48px;
+}
