@@ -13,13 +13,16 @@
             Randy Ip
         </div>
         <ul>
-            <il>Linkedin</il>
-            <il>Github</il>
-            <il>link</il>
+            <il>
+                <a href='https://www.linkedin.com/in/randy-ip/' target="_blank">Linkedin</a>
+            </il>
+            <il>
+                <a href='https://github.com/RandyIp' target="_blank">GitHub</a>
+            </il>
         </ul>
     </div>
     <div class="header2">
-        <a>Software Engineer</a>
+        <div class='title'>Software Engineer</div>
         <img src="./images/self.jpg" alt="self photo">
         <p>Hi, my name is Randy. I have many interests but am currently working on my web development/coding skills to become a software engineer. <br>
         I started off my career path by obtaining my bachelor's in economics from UC Davis. I would then spend the next two years working with <br>
@@ -59,6 +62,21 @@
             —Dale Carnegie
         </p>
     </div>
-    <div></div>
+    <div class="contact">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 </body>
 </html>
